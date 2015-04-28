@@ -21,4 +21,7 @@ def lcs(a, b):
             resultado = a[x-1] + resultado
             x -= 1
             y -= 1
-    return resultado# Longest-common-subsequence
+    return resultado
+a="curator Jacque Sauniere in D. Brown's novel The Da Vinci Code (Brown 2003, pp. 43, 60-61, and 189-192). In the Season 1 episode Sabotage (2005) of"
+b="the television crime drama NUMB3RS, math genius Charlie Eppes mentions that the Fibonacci numbers are found in the structure of crystals and the spiral"
+print (lcs(a,b))
